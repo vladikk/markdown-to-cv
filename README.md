@@ -11,3 +11,5 @@ python md2cv.py vladikk.md cv resume.html
 ## Features
 
 See the vladikk.md for a reference markdown document.
+
+Note: Markdown's horizontal rule("---") is used for denoting page breaks, when the resulting CV file is printed.
