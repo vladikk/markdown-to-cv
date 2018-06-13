@@ -30,26 +30,28 @@ PostgreSQL, DynamoDB, MSSQL, Redis, MongoDB, Redshift
 ### Development Methodologies
 Test-Driven Development, Behavior-Driven Development
 
+## Blog
+[vladikk.com](https://vladikk.com) - my blog on software architecture and other related topics
+
 ## Education
 ### The Open University of Israel
 Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
-
-## Blog
-[vladikk.com](https://vladikk.com) - my blog on software architecture and other related topics
 
 ---
 
 ## Experience
 
-### Invesus Group - Chief Architect (2017-Present)
-In 2017 Internovus was merged with Invesus, and I was promoted to the Chief Architect position of the Invesus group (Internovus, Naxex). In addition to my duties at Internovus, at Invesus I’m in charge of mentoring and helping teams to migrate legacy codebases into a Microservices and AWS Cloud based solutions.
-
 ### Internovus - Chief Architect (2011-Present)
-Internovus is a large scale online advertising and marketing company. As the first employee of the company I was in charge of both strategic and tactical software design and architecture.
+Internovus is a large scale online advertising and marketing company. As the first employee of the company I am in charge of both strategic and tactical software design and architecture. 
 
-We embraced AWS Cloud and Domain-Driven Design from the company's day one. We also employed state of the art technologies and architectural styles, such as Microservices, Serverless Computing, Event Sourcing, CQRS, Event-Driven Architecture, polyglot persistence, machine learning, and others.
+At Internovus we've embraced AWS Cloud and Domain-Driven Design from the company's day one. We also employed state of the art technologies and architectural styles, such as Microservices, Serverless Computing, Event Sourcing, CQRS, Event-Driven Architecture, polyglot persistence, machine learning, and others.
 
-In addition to my engineering duties, I built and managed international RND teams, mentored junior software developers and architects, and am in charge of research and technical guidance for the company.
+In addition to my engineering duties, I built and managed international RND teams, mentored junior software developers and architects, and I'm in charge of research and technical guidance for RND teams.
+
+At Internovus we always strove to deploy quality software, in aggressive times to market, keep the costs down, and all of this despite having very limited RND teams.
+
+### Invesus Group - Chief Architect (2017-Present)
+In 2017 Internovus was merged with Invesus, and I was promoted to the Chief Architect position of the Invesus group (Internovus, Naxex). In addition to my duties at Internovus, at Invesus I’m in charge of mentoring and helping teams to migrate legacy codebases into a Microservices and cloud based solutions (AWS).
 
 ### Malam Team - Senior Software Engineer (2005-2011)
 Right after I demobilized from the army, I started working as a junior software engineer for one of Israel's largest outsourcing companies - Malam. I worked on numerous strategic projects for  MSN, Cellcom, Coca Cola, Keshet, and other companies.
@@ -84,12 +86,12 @@ I spoke about my finding at the ["DDD eXchange 2018" conference](https://bit.ly/
 * [Bounded Contexts are NOT Microservices](https://vladikk.com/2018/01/21/bounded-contexts-vs-microservices/)
 
 ### 7 Years of Domain-Driven Design (Book)
-I'm working on transforming my talk "7 Years of Domain-Driven Design" into a book. The talk had a huge success at numerous conferences worldwide, and in the book I'll share much more details, will be able to dive deeper into technical concerns, provide code samples, and share all the information I accumulated, but had to cut from the presentation due to timing concerns.
+I'm writing a book, based on my talk "7 Years of Domain-Driven Design". The talk had a huge success at numerous conferences worldwide, and in the book I'll share much more details, will be able to dive deeper into technical concerns, provide code samples, and share all the information I accumulated, but had to cut from the presentation due to timing concerns.
 
 ## Public Speaking
 * [Bounded Contexts, Microservices, and Everything in Between (DDDx)](https://bit.ly/2wRdEzp)
 * [7 Years of Domain-Driven Design (Code Europe)](https://bit.ly/2Ijs807)
-* [Full Speaking Profile](http://vladikk.com/page/speaking)
+* [Full speaking profile](http://vladikk.com/page/speaking)
 
 ## Publications
 Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012
