@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ metadata.name }} | {{ metadata.tagline }} | {{ metadata.email }}</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="{{ metadata.keywords }}" />
+	<meta name="description" content="{{ metadata.description }}" />
+	<style>
+		/* 
+		html5doctor.com Reset Stylesheet
+		v1.6.1
+		Last Updated: 2010-09-17
+		Author: Richard Clark - http://richclarkdesign.com 
+		Twitter: @rich_clark
+		*/
+
+		html, body, div, span, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		abbr, address, cite, code,
+		del, dfn, em, img, ins, kbd, q, samp,
+		small, strong, sub, sup, var,
+		b, i,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section, summary,
+		time, mark, audio, video {
+		    margin:0;
+		    padding:0;
+		    border:0;
+		    outline:0;
+		    font-size:100%;
+		    vertical-align:baseline;
+		    background:transparent;
+		}
+
+		body {
+		    line-height:1;
+		}
+
+		article,aside,details,figcaption,figure,
+		footer,header,hgroup,menu,nav,section { 
+			display:block;
+		}
+
+		nav ul {
+		    list-style:none;
+		}
+
+		blockquote, q {
+		    quotes:none;
+		}
+
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+		    content:'';
+		    content:none;
+		}
+
+		a {
+		    margin:0;
+		    padding:0;
+		    font-size:100%;
+		    vertical-align:baseline;
+		    background:transparent;
+		}
+
+		/* change colours to suit your needs */
+		ins {
+		    background-color:#ff9;
+		    color:#000;
+		    text-decoration:none;
+		}
+
+		/* change colours to suit your needs */
+		mark {
+		    background-color:#ff9;
+		    color:#000; 
+		    font-style:italic;
+		    font-weight:bold;
+		}
+
+		del {
+		    text-decoration: line-through;
+		}
+
+		abbr[title], dfn[title] {
+		    border-bottom:1px dotted;
+		    cursor:help;
+		}
+
+		table {
+		    border-collapse:collapse;
+		    border-spacing:0;
+		}
+
+		/* change border colour to suit your needs */
+		hr {
+		    display:block;
+		    height:1px;
+		    border:0;   
+		    border-top:1px solid #cccccc;
+		    margin:1em 0;
+		    padding:0;
+		}
+
+		input, select {
+		    vertical-align:middle;
+		}
+	</style>
+	<style>
+		html, body {
+			font-family: Georgia;
+			color: #444;
+		}
+
+		.cv {
+			text-align: left;
+			box-sizing: border-box;
+			width: 200mm;
+			padding: 1cm;
+			margin: 80px auto;
+			background: #f5f5f5;
+			border: solid #666;
+			border-width: 8px 0 2px 0;
+		}
+
+		h1, h2, h3, h4 {
+			color: #444;
+			font-weight: normal;
+			font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+			line-height: 1.5em;
+		}
+
+		h1 {
+			font-size: 35px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+
+		h2 {
+			font-size: 12px;
+			margin-bottom: 5px;
+			font-style: italic;
+		}
+
+		.cv {
+			
+		}
+
+		.header {
+			margin: 40px 0px;
+			position: relative;
+			line-height: 1.4em;
+			width: 65%;
+			display: inline-block;
+		}
+
+		.contact-info {
+			margin: 46px 0px;
+		}
+
+		a {
+			color: #990003;
+		}
+
+		.contact-info {
+			text-align: left;
+			line-height: 1.4em;
+			font-family: 'Hoefler Text', Times New Roman, Times, serif;
+			color: #444;
+			width: 30%;
+			float: right;
+			display: inline-block;
+		}
+
+		.header,
+		.contact-info {
+		}
+
+		.contact-info span {
+			display: block;
+		}
+
+		.header h2 {
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		.cv-body {
+			position: relative;
+		}
+
+		.cv-body h2 {
+			font-size: 20px;
+			color: #333;
+			font-family: arial,helvetica,clean,sans-serif;
+			width: 20%;
+			float: left;
+			top: 200px;
+			clear: both;
+		}
+
+		.cv-body h2,
+		.cv-body h3,
+		.cv-body p {
+			line-height: 25px;
+			vertical-align: text-top;
+		}
+
+		.cv-body h2 + * {
+			padding-top: 20px;
+		}
+
+		.cv-body h2 {
+			padding-top: 20px;
+		}
+
+		.cv-body h3,
+		.cv-body p,
+		.cv-body ul {
+			width: 80%;
+			float: right;
+			text-align: left;
+			line-height: 25px;
+		}
+
+		.cv-body p,
+		.cv-body h3,
+		.cv-body li {
+			font-size: 16px;
+			margin-bottom: 5px;
+		}
+
+		.cv-body h2::before,
+		.cv-body h2 + *::before {
+		    display: inline-block;
+		    content: "";
+		    border-top: 1px solid #ccc;
+		    margin: 20px 0px 10px;
+		    width: 100%;
+		    transform: translateY(-1rem);
+		}
+
+		.cv-body :first-child::before {
+			display: none;
+			margin: 0px;
+			border-style: none;
+		}
+
+		.cv-body :first-child + *::before {
+			display: none;
+			margin: 0px;
+			border-style: none;
+		}
+
+		.cv-body h3 {
+			margin-top: 20px;
+		}
+
+		.cv-body h2 + h3 {
+			margin-top: 0px;
+		}
+
+		.cv-body p {
+			display: inline-block;
+		}
+
+		.cv-body ul {
+			list-style: none;
+		}
+
+		.footer {
+			clear: both;
+			text-align: center;
+			padding-top: 50px;
+			padding-bottom: 30px;
+		}
+
+		@media print {
+			.cv {
+				margin: 0px;
+				border-style: none;
+			}
+
+			.header {
+				margin: 20px 0px;
+			}
+
+			.contact-info {
+				margin: 26px 0px;
+			}
+
+			.cv-body {
+				margin-top: -20px;
+			}
+
+			.cv-body p,
+			.cv-body h3,
+			.cv-body li {
+				font-size: 14px;
+				margin-bottom: 3px;
+			}
+
+			.footer {
+				padding-top: 30px;
+				padding-bottom: 0px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="cv">
+		<div class="header">
+			<h1>{{ metadata.name }}</h1>
+			<h2>{{ metadata.tagline }}</h2>
+		</div>
+		<div class="contact-info">
+			<span class="email"><a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></span>
+			<span class="phonenumber">{{ metadata.phonenumber }}</span>
+			<span class="twitter"><a href="http://twitter.com/{{ metadata.twitter }}">@{{ metadata.twitter }}</a></span>
+		</div>
+		<div class="cv-body">
+			{{ html }}
+		</div>
+		<div class="footer">
+			{{ metadata.name }} &mdash; <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a> &mdash; {{ metadata.phonenumber }}
+		</div>
+	</div>
+</body>
+</html>
+
