@@ -11,7 +11,7 @@ I’m a software engineer with nearly 20 years of industry experience. During th
 
 When away from work, I maintain an active media career as public speaker and blogger. I am speaking and writing on topics such as Microservices, Domain-Driven Design, and more. Alongside the media work, I have a keen professional interest in Distributed Systems, Software Architecture, and Software Design in general.
 
-In the remaining time, I read lots of books, fly R/C aircrafts, and rescue troubled animals.
+In the remaining time, I read lots of books, fly R/C aircrafts, and help animals in trouble.
 
 ## Skills
 
@@ -33,6 +33,9 @@ Test-Driven Development, Behavior-Driven Development
 ## Education
 ### The Open University of Israel
 Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
+
+## Blog
+[vladikk.com](https://vladikk.com) - my blog on software architecture and other related topics
 
 ---
 
@@ -63,12 +66,25 @@ I was in charge of building websites for local shops and small businesses.
 
 ---
 
-## Blog
-[vladikk.com](https://vladikk.com)
-
 ## Recent Personal Projects
+
+### Domain-Driven Design
+I always had a strong interest in Domain-Driven Design. For the last few years I've researched the "ins" and "outs" of this methodology, and other related patterns and practices. I posted several blogs on this subject:
+
+* [Tackling Complexity in the Heart of DDD](https://vladikk.com/2016/04/05/tackling-complexity-ddd/)
+* [Tackling Complexity in CQRS](https://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/)
+* [Bounded Contexts are NOT Microservices](https://vladikk.com/2018/01/21/bounded-contexts-vs-microservices/)
+* [Revisiting the Basics of Domain-Driven Design](https://vladikk.com/2018/01/26/revisiting-the-basics-of-ddd/)
+
 ### Design Heuristics for Service Boundaries
+Since the Microservices trend broke out, I've been researching heuristics for designing service boundaries.
+I spoke about my finding at the ["DDD eXchange 2018" conference](https://bit.ly/2wRdEzp), and posted several blogs:
+
+* [Tackling Complexity in Microservices](https://vladikk.com/2018/02/28/microservices/)
+* [Bounded Contexts are NOT Microservices](https://vladikk.com/2018/01/21/bounded-contexts-vs-microservices/)
+
 ### 7 Years of Domain-Driven Design (Book)
+I'm working on transforming my talk "7 Years of Domain-Driven Design" into a book. The talk had a huge success at numerous conferences worldwide, and in the book I'll share much more details, will be able to dive deeper into technical concerns, provide code samples, and share all the information I accumulated, but had to cut from the presentation due to timing concerns.
 
 ## Public Speaking
 * [Bounded Contexts, Microservices, and Everything in Between (DDDx)](https://bit.ly/2wRdEzp)
