@@ -6,7 +6,7 @@ A simple python script that parses markdown files and generates CV files.
 
 The following command generates "cv.html" file from vladikk.md, using the "resume.html" template.
 
-` python md2cv.py vladikk.md cv resume.html
+python md2cv.py vladikk.md cv resume.html
 
 ## Features
 
