@@ -30,8 +30,9 @@ PostgreSQL, DynamoDB, MSSQL, Redis, MongoDB, Redshift
 ### Development Methodologies
 Test-Driven Development, Behavior-Driven Development
 
-## Blog
-[vladikk.com](https://vladikk.com)
+## Education
+### The Open University of Israel
+Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
 
 ---
 
@@ -62,6 +63,9 @@ I was in charge of building websites for local shops and small businesses.
 
 ---
 
+## Blog
+[vladikk.com](https://vladikk.com)
+
 ## Recent Personal Projects
 ### Design Heuristics for Service Boundaries
 ### 7 Years of Domain-Driven Design (Book)
@@ -70,10 +74,6 @@ I was in charge of building websites for local shops and small businesses.
 * [Bounded Contexts, Microservices, and Everything in Between (DDDx)](https://bit.ly/2wRdEzp)
 * [7 Years of Domain-Driven Design (Code Europe)](https://bit.ly/2Ijs807)
 * [Full Speaking Profile](http://vladikk.com/page/speaking)
-
-## Education
-### The Open University of Israel
-Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
 
 ## Publications
 Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012

@@ -1,1 +1,1 @@
-python md2cv.py vladikk.md resume resume.html
+python md2cv.py vladikk.md ~/projects/blog/blog-source/static/cv/resume resume.html

@@ -95,3 +95,6 @@ domainlang.egginfo
 *.swp
 
 temp/
+
+# personal files
+generate.sh
