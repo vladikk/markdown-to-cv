@@ -8,8 +8,12 @@ The following command generates "cv.html" file from vladikk.md, using the "resum
 
 python md2cv.py vladikk.md cv resume.html
 
-## Features
+## Input Schema
 
 See the vladikk.md for a reference markdown document.
 
 Note: Markdown's horizontal rule("---") is used for denoting page breaks, when the resulting CV file is printed.
+
+## PDF
+
+PDF file generation requires docker.

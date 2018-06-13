@@ -2,6 +2,7 @@ import codecs
 import markdown2
 import argparse
 import sys
+from subprocess import call
 from jinja2 import Environment, PackageLoader
 
 env = Environment(
@@ -23,9 +24,15 @@ def generate(source, target, template):
     }
 
     output_html = template.render(**params)
+    html_file = "%s.html" % target
+    pdf_file = "%s.pdf" % target
 
-    with codecs.open("%s.html" % target, "w", "utf-8-sig") as output_file:
+    with codecs.open(html_file, "w", "utf-8-sig") as output_file:
         output_file.write(output_html)
+
+    cmd = "./pdf.sh %s %s" % (html_file, pdf_file)
+    print cmd
+    call(cmd, shell=True)
 
 
 def main(args=None):

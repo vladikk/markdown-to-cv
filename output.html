@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>{{ metadata.name }} | {{ metadata.tagline }} | {{ metadata.email }}</title>
+	<title>Vladik Khononov | Software Architect, Speaker, Blogger, Mentor | vladik@khononov.com</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="{{ metadata.keywords }}" />
-	<meta name="description" content="{{ metadata.description }}" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
 	<style>
 		/* 
 		html5doctor.com Reset Stylesheet
@@ -99,9 +99,10 @@
 		hr {
 		    display:block;
 		    height:1px;
+		    border:0;   
 		    border-top:1px solid #cccccc;
+		    margin:1em 0;
 		    padding:0;
-		    margin:0;
 		}
 
 		input, select {
@@ -277,10 +278,6 @@
 			padding-bottom: 30px;
 		}
 
-		hr {
-			display: none;
-		}
-
 		@media print {
 			.cv {
 				margin: 0px;
@@ -311,38 +308,107 @@
 				padding-top: 30px;
 				padding-bottom: 0px;
 			}
-
-			hr {
-				display: block;
-				visibility: hidden;
-				page-break-after: always;
-			}
-
-			.header h1,
-			.header h2 {
-				letter-spacing: 0px;
-			}
 		}
 	</style>
 </head>
 <body>
 	<div class="cv">
 		<div class="header">
-			<h1>{{ metadata.name }}</h1>
-			<h2>{{ metadata.tagline }}</h2>
+			<h1>Vladik Khononov</h1>
+			<h2>Software Architect, Speaker, Blogger, Mentor</h2>
 		</div>
 		<div class="contact-info">
-			<span class="email"><a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></span>
-			<span class="phonenumber">{{ metadata.phonenumber }}</span>
-			<span class="twitter"><a href="http://twitter.com/{{ metadata.twitter }}">@{{ metadata.twitter }}</a></span>
+			<span class="email"><a href="mailto:vladik@khononov.com">vladik@khononov.com</a></span>
+			<span class="phonenumber">+972-50-765-7534</span>
+			<span class="twitter"><a href="http://twitter.com/vladikk">@vladikk</a></span>
 		</div>
 		<div class="cv-body">
-			{{ html }}
+			<h2>Profile</h2>
+
+<p>I’m a software engineer with nearly 20 years of industry experience. During the years I worked for companies large and small, in roles ranging from Software Engineer to Chief Architect.</p>
+
+<p>When away from work, I maintain an active media career as public speaker and blogger. I am speaking and writing on topics such as Microservices, Domain-Driven Design, and more. Alongside the media work, I have a keen professional interest in Distributed Systems, Software Architecture, and Software Design in general.</p>
+
+<p>In the remaining time, I read lots of books, fly R/C aircrafts, and rescue troubled animals.</p>
+
+<h2>Skills</h2>
+
+<h3>Software Architecture and Design</h3>
+
+<p>Domain-Driven Design, Microservices, CQRS, Event Sourcing, Distributed Systems Design, Event-Driven Architecture, SOA</p>
+
+<h3>Cloud Computing</h3>
+
+<p>Amazon Web Services, Digital Ocean</p>
+
+<h3>Platforms and Programming Languages</h3>
+
+<p>.NET &amp; .NET Core (C# &amp; F#), Python, NodeJS (JavaScript, CoffeeScript, TypeScript), Swift</p>
+
+<h3>Databases</h3>
+
+<p>PostgreSQL, DynamoDB, MSSQL, Redis, MongoDB, Redshift</p>
+
+<h3>Development Methodologies</h3>
+
+<p>Test-Driven Development, Behavior-Driven Development</p>
+
+<h2>Blog</h2>
+
+<p><a href="https://vladikk.com">vladikk.com</a></p>
+
+<h2>Experience</h2>
+
+<h3>Invesus Group - Chief Architect (2017-Present)</h3>
+
+<p>In 2017 Internovus was merged with Invesus, and I was promoted to the Chief Architect position of the Invesus group (Internovus, Naxex). In addition to my duties at Internovus, at Invesus I’m in charge of mentoring and helping teams to migrate legacy codebases into a Microservices and AWS Cloud based solutions.</p>
+
+<h3>Internovus - Chief Architect (2011-Present)</h3>
+
+<p>Internovus is a large scale online advertising and marketing company. As the first employee of the company I was in charge of both strategic and tactical software design and architecture.</p>
+
+<p>We embraced AWS Cloud and Domain-Driven Design from the company's day one. We also employed state of the art technologies and architectural styles, such as Microservices, Serverless Computing, Event Sourcing, CQRS, Event-Driven Architecture, polyglot persistence, machine learning, and others.</p>
+
+<p>In addition to my engineering duties, I built and managed international RND teams, mentored junior software developers and architects, and am in charge of research and technical guidance for the company.</p>
+
+<h3>Malam Team - Senior Software Engineer (2005-2011)</h3>
+
+<p>Right after I demobilized from the army, I started working as a junior software engineer for one of Israel's largest outsourcing companies - Malam. I worked on numerous strategic projects for  MSN, Cellcom, Coca Cola, Keshet, and other companies.</p>
+
+<h3>Israel Air Force - Software and IT Engineer (2001-2005)</h3>
+
+<p>During my army service I served as an IT manager for the Human Resources department. I was in charge of building and maintaining information management systems (Magic, MS Access), administrating databases, and supporting the department's hardware.</p>
+
+<p>During the service I was honored as an <em>outstanding</em> soldier.</p>
+
+<h3>Beit Tochna Ve Makhshev - Web Developer (2000-2001)</h3>
+
+<p>During my high school years I worked as a web developer for a small chain of computer stores.</p>
+
+<p>I was in charge of building websites for local shops and small businesses.</p>
+
+<h2>Public Speaking</h2>
+
+<ul>
+<li><a href="https://bit.ly/2wRdEzp">Bounded Contexts, Microservices, and Everything in Between (DDDx)</a></li>
+<li><a href="https://bit.ly/2Ijs807">7 Years of Domain-Driven Design (Code Europe)</a></li>
+<li><a href="http://vladikk.com/page/speaking">Full Speaking Profile</a></li>
+</ul>
+
+<h2>Publications</h2>
+
+<p>Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012</p>
+
+<h2>Education</h2>
+
+<h3>The Open University of Israel</h3>
+
+<p>Dual Major, Management and Computer Sciences, 2011 (with <em>distinction</em>)</p>
+
 		</div>
 		<div class="footer">
-			{{ metadata.name }} &mdash; <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a> &mdash; {{ metadata.phonenumber }}
+			Vladik Khononov &mdash; <a href="mailto:vladik@khononov.com">vladik@khononov.com</a> &mdash; +972-50-765-7534
 		</div>
 	</div>
 </body>
 </html>
-
