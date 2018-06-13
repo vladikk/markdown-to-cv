@@ -33,6 +33,8 @@ Test-Driven Development, Behavior-Driven Development
 ## Blog
 [vladikk.com](https://vladikk.com)
 
+---
+
 ## Experience
 
 ### Invesus Group - Chief Architect (2017-Present)
@@ -58,14 +60,25 @@ During my high school years I worked as a web developer for a small chain of com
 
 I was in charge of building websites for local shops and small businesses.
 
+---
+
+## Recent Personal Projects
+### Design Heuristics for Service Boundaries
+### 7 Years of Domain-Driven Design (Book)
+
 ## Public Speaking
 * [Bounded Contexts, Microservices, and Everything in Between (DDDx)](https://bit.ly/2wRdEzp)
 * [7 Years of Domain-Driven Design (Code Europe)](https://bit.ly/2Ijs807)
 * [Full Speaking Profile](http://vladikk.com/page/speaking)
 
-## Publications
-Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012
-
 ## Education
 ### The Open University of Israel
 Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
+
+## Publications
+Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012
+
+## Human Languages
+* English - Fluent
+* Hebrew - Fluent
+* Russian - Mother tongue

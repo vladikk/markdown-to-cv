@@ -153,6 +153,10 @@ a {
 	padding-bottom: 30px;
 }
 
+hr {
+	display: none;
+}
+
 @media print {
 	.cv {
 		margin: 0px;

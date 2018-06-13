@@ -99,10 +99,9 @@
 		hr {
 		    display:block;
 		    height:1px;
-		    border:0;   
 		    border-top:1px solid #cccccc;
-		    margin:1em 0;
 		    padding:0;
+		    margin:0;
 		}
 
 		input, select {
@@ -278,6 +277,10 @@
 			padding-bottom: 30px;
 		}
 
+		hr {
+			display: none;
+		}
+
 		@media print {
 			.cv {
 				margin: 0px;
@@ -306,6 +309,12 @@
 			.footer {
 				padding-top: 30px;
 				padding-bottom: 0px;
+			}
+
+			hr {
+				display: block;
+				visibility: hidden;
+				page-break-after: always;
 			}
 		}
 	</style>

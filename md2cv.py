@@ -1,5 +1,6 @@
 import codecs
 import markdown2
+import pdfkit
 from jinja2 import Environment, PackageLoader
 
 env = Environment(
@@ -22,3 +23,5 @@ output_html = template.render(**params)
 
 with codecs.open("output.html", "w", "utf-8-sig") as output_file:
     output_file.write(output_html)
+
+pdfkit.from_file("output.html", "output.pdf")
