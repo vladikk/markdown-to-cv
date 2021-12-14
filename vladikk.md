@@ -23,6 +23,13 @@ Event Storming, Evolutionary Architecture
 ### Architectural patterns and approaches
 CQRS, Event Sourcing, Ports&Adapters/Hexagonal Architecture, Event-Driven Architecture, Test-Driven Development
 
+## Education
+### The Open University of Israel
+Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
+
+## Blog
+[vladikk.com](https://vladikk.com) - Software architecture and other related topics
+
 ---
 
 ## Experience
@@ -79,15 +86,3 @@ I co-authored this [book](https://leanpub.com/ddd_first_15_years), alongside Mar
 * Testing Software Architecture (TestCon Moscow, Rolling Scopes)
 * How to Tame Test-Driven Development (TestCon Moscow, ISTA)
 * [Full speaking profile: http://vladikk.com/page/speaking](http://vladikk.com/page/speaking)
-
-## Blog
-[vladikk.com](https://vladikk.com) - Software architecture and other related topics
-
-## Education
-### The Open University of Israel
-Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
-
-## Languages
-* English - Fluent
-* Hebrew - Fluent
-* Russian - Mother tongue
