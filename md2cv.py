@@ -31,7 +31,7 @@ def generate(source, target, template):
         output_file.write(output_html)
 
     cmd = "./pdf.sh %s %s" % (html_file, pdf_file)
-    print cmd
+    print(cmd)
     call(cmd, shell=True)
 
 

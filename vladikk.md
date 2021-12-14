@@ -1,22 +1,18 @@
 ---
 name: Vladik Khononov
-tagline: Software Architect, Speaker, Author, Mentor
+tagline: Software Architect, Author(O'Reilly, Addison Wesley)
 email: vladik@khononov.com
 phonenumber: +972-50-765-7534
 twitter: vladikk
 ---
 
 ## Profile
-I’m a software engineer with nearly 20 years of industry experience. During the years I worked for companies large and small, in roles ranging from Webmaster to Chief Architect.
-
-I’m a regular speaker at leading software engineering conferences, such as O’Reilly Software Architecture, NDC, DDD Europe, and others. My topics include distributed systems, Domain-Driven Design, Microservices, Evolutionary Architecture, and software architecture in general.
-
-As an author, I participated in the “Domain-Driven Design: The First 15 Years” book project, alongside Martin Fowler, Mel Conway, Rebecca Wirfs-Brock, and other industry leaders. Currently I'm working on a solo writing project for **O'Reilly**.
+Vlad (Vladik) Khononov is a software engineer with over 20 years of industry experience, during which he has worked for companies large and small in roles ranging from webmaster to chief architect. Vlad maintains an active media career as a public speaker, blogger, and author. He travels the world consulting and talking about domain-driven design, microservices, and software architecture in general. Vlad helps companies make sense of their business domains, untangle legacy systems, and tackle complex architectural challenges. Vladik lives in Northern Israel with his wife and an almost-reasonable number of cats.
 
 ## Proven Experience
 
 ### Distributed systems design
-Microservices, Event-Driven Architecture
+Microservices, Event-Driven Architecture, SOA
 
 ### Aligning software architecture with business needs
 Domain-Driven Design, Event Storming, Evolutionary Architecture, Behavior-Driven Development
@@ -25,20 +21,16 @@ Domain-Driven Design, Event Storming, Evolutionary Architecture, Behavior-Driven
 Event Storming, Evolutionary Architecture
 
 ### Architectural patterns and approaches
-CQRS, Event Sourcing, Hexagonal Architecture, Event-Driven Architecture, Test-Driven Development
-
-## Blog
-[vladikk.com](https://vladikk.com) - my blog on software architecture and other related topics
-
-## Education
-### The Open University of Israel
-Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
+CQRS, Event Sourcing, Ports&Adapters/Hexagonal Architecture, Event-Driven Architecture, Test-Driven Development
 
 ---
 
 ## Experience
 
-### Invesus Group - Chief Architect (2017-Present)
+### DoiT International - Senior Cloud Architect (2019-now)
+DoiT Internation is a cloud computing reseller offering micro-consulting to its customers. I help customers design and architect solutions for AWS and Google Cloud.
+
+### Invesus Group - Chief Architect (2017-2019)
 In 2017 Internovus was merged with Invesus, and I was promoted to the Chief Architect position of the Invesus group (Internovus, Naxex, Tick Tech). At Invesus I’m in charge of mentoring junior and senior developers, evolving legacy codebases into Microservices and cloud based solutions (AWS), and providing architectural guidance for new projects.
 
 Experience: Evolutionary Architecture, Microservices, Distributed Systems, TDD, Domain-Driven Design, Event-Driven Architecture, CQRS, Event Sourcing
@@ -62,22 +54,38 @@ Experience: Evolutionary Architecture, Microservices, Distributed Systems, TDD, 
 
 ---
 
+## Books and Publications
+
+### Balancing Coupling in Software Design (Addison Wesley, 2022 WIP)
+Microservices become immensely popular because it promised to help organizations build loosely-coupled systems that allow for fast, easy change. But microservices systems haven't always kept that promise. This book identifies the deeper problem -- how software architects and designers approach coupling and introduces an important new approach for creating more successful designs whether you use microservices or not. This book is a work in progress and is [expected to be published in Q2 of 2022](https://www.amazon.com/Balancing-Coupling-Software-Design-Addison-wesley/dp/0137353480).
+
+### Learning Domain-Driven Design (O'Reilly, 2021)
+[Learning Domain-Driven Design](https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131) provides all the knowledge necessary for leveraging the domain-driven design methodology in day-to-day work. The book puts strong emphasis on real-life contexts, such as using the methodology in brown-field projects, and other challenging scenarios.
+
+### What is Domain-Driven Design? (O'Reilly, 2019)
+[The "What is Domain-Driven Design?" book](https://learning.oreilly.com/library/view/what-is-domain-driven/9781492057802/) explains the core ideas and principles of domain-driven design. The book's unique characteristic, is that it does it in fewer than 100 pages, making it possible for anyone to get into the methodology in under two hours.
+
+### DDD: The First 15 Years (Leanpub, 2018)
+I co-authored this [book](https://leanpub.com/ddd_first_15_years), alongside Martin Fowler, Mel Conway, Rebecca Wirfs-Brock, and other industry leaders. I shared my 7 years long story of implementing Domain-Driven Design and Microservices-based architectures.
+
+### Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012
+
 ## Public Speaking
-* Microservices: The Advanced Basics (DDDx, MuCon London, KanDDDinsky)
+* Balancing Coupling in Distributed Systems (DDD Europe)
+* Microservices, Bounded Contexts, and Everything in Between (DDDx, MuCon London, KanDDDinsky, O'Reilly SACon)
 * 7 Years of Domain-Driven Design (O'Reilly SACon, DDD Europe, NDC Sydney, Code Europe, and more)
-* The Dark Side of Messaging (NDC Minnesota, MuCon London)
+* The Dark Side of Messaging (NDC Minnesota, MuCon London, Build Stuff, O'Reilly SACon)
 * Polyglot Persistence via CQRS (Big Data Moscow)
-* Testing Software Architecture (TestCon Moscow)
+* Testing Software Architecture (TestCon Moscow, Rolling Scopes)
 * How to Tame Test-Driven Development (TestCon Moscow, ISTA)
 * [Full speaking profile: http://vladikk.com/page/speaking](http://vladikk.com/page/speaking)
 
-## Books and Publications
-### DDD: The First 15 Years
-I participated in this book, alongside Martin Fowler, Mel Conway, Rebecca Wirfs-Brock, and other industry leaders. In it I shared my 7 years long story of implementing Domain-Driven Design and Microservices-based architectures.
+## Blog
+[vladikk.com](https://vladikk.com) - Software architecture and other related topics
 
-### What is Domain-Driven Design? (WIP)
-
-### Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012
+## Education
+### The Open University of Israel
+Dual Major, Management and Computer Sciences, 2011 (with *distinction*)
 
 ## Languages
 * English - Fluent

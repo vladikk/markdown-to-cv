@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Vladik Khononov | Software Architect, Author(O'Reilly, Addison Wesley) | vladik@khononov.com</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<style>
+		/* 
+		html5doctor.com Reset Stylesheet
+		v1.6.1
+		Last Updated: 2010-09-17
+		Author: Richard Clark - http://richclarkdesign.com 
+		Twitter: @rich_clark
+		*/
+
+		html, body, div, span, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		abbr, address, cite, code,
+		del, dfn, em, img, ins, kbd, q, samp,
+		small, strong, sub, sup, var,
+		b, i,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section, summary,
+		time, mark, audio, video {
+		    margin:0;
+		    padding:0;
+		    border:0;
+		    outline:0;
+		    font-size:100%;
+		    vertical-align:baseline;
+		    background:transparent;
+		}
+
+		body {
+		    line-height:1;
+		}
+
+		article,aside,details,figcaption,figure,
+		footer,header,hgroup,menu,nav,section { 
+			display:block;
+		}
+
+		nav ul {
+		    list-style:none;
+		}
+
+		blockquote, q {
+		    quotes:none;
+		}
+
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+		    content:'';
+		    content:none;
+		}
+
+		a {
+		    margin:0;
+		    padding:0;
+		    font-size:100%;
+		    vertical-align:baseline;
+		    background:transparent;
+		}
+
+		/* change colours to suit your needs */
+		ins {
+		    background-color:#ff9;
+		    color:#000;
+		    text-decoration:none;
+		}
+
+		/* change colours to suit your needs */
+		mark {
+		    background-color:#ff9;
+		    color:#000; 
+		    font-style:italic;
+		    font-weight:bold;
+		}
+
+		del {
+		    text-decoration: line-through;
+		}
+
+		abbr[title], dfn[title] {
+		    border-bottom:1px dotted;
+		    cursor:help;
+		}
+
+		table {
+		    border-collapse:collapse;
+		    border-spacing:0;
+		}
+
+		/* change border colour to suit your needs */
+		hr {
+		    display:block;
+		    height:1px;
+		    border-top:1px solid #cccccc;
+		    padding:0;
+		    margin:0;
+		}
+
+		input, select {
+		    vertical-align:middle;
+		}
+	</style>
+	<style>
+		html, body {
+			font-family: Georgia;
+			color: #444;
+		}
+
+		.cv {
+			text-align: left;
+			box-sizing: border-box;
+			width: 200mm;
+			padding: 1cm;
+			margin: 80px auto;
+			background: #f5f5f5;
+			border: solid #666;
+			border-width: 8px 0 2px 0;
+		}
+
+		h1, h2, h3, h4 {
+			color: #444;
+			font-weight: normal;
+			font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+			line-height: 1.5em;
+		}
+
+		h1 {
+			font-size: 37px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+
+		h2 {
+			font-size: 13px;
+			margin-bottom: 5px;
+			font-style: italic;
+		}
+
+		.cv {
+			
+		}
+
+		.header {
+			margin: 40px 0px;
+			position: relative;
+			line-height: 1.4em;
+			width: 65%;
+			display: inline-block;
+		}
+
+		.contact-info {
+			margin: 46px 0px;
+		}
+
+		a {
+			color: #990003;
+		}
+
+		.contact-info {
+			text-align: left;
+			line-height: 1.4em;
+			font-family: 'Hoefler Text', Times New Roman, Times, serif;
+			color: #444;
+			width: 30%;
+			float: right;
+			display: inline-block;
+		}
+
+		.header,
+		.contact-info {
+		}
+
+		.contact-info span {
+			display: block;
+		}
+
+		.header h2 {
+			text-transform: uppercase;
+			letter-spacing: 2px;
+		}
+
+		.cv-body {
+			position: relative;
+		}
+
+		.cv-body h2 {
+			font-size: 20px;
+			color: #333;
+			font-family: arial,helvetica,clean,sans-serif;
+			width: 20%;
+			float: left;
+			top: 200px;
+			clear: both;
+		}
+
+		.cv-body h2,
+		.cv-body h3,
+		.cv-body p {
+			line-height: 25px;
+			vertical-align: text-top;
+		}
+
+		.cv-body h2 + * {
+			padding-top: 20px;
+		}
+
+		.cv-body h2 {
+			padding-top: 20px;
+		}
+
+		.cv-body h3,
+		.cv-body p,
+		.cv-body ul {
+			width: 80%;
+			float: right;
+			text-align: left;
+			line-height: 25px;
+		}
+
+		.cv-body p,
+		.cv-body h3,
+		.cv-body li {
+			font-size: 16px;
+			margin-bottom: 5px;
+		}
+
+		.cv-body h2::before,
+		.cv-body h2 + *::before {
+		    display: inline-block;
+		    content: "";
+		    border-top: 1px solid #ccc;
+		    margin: 20px 0px 10px;
+		    width: 100%;
+		    transform: translateY(-1rem);
+		}
+
+		.cv-body :first-child::before {
+			display: none;
+			margin: 0px;
+			border-style: none;
+		}
+
+		.cv-body :first-child + *::before {
+			display: none;
+			margin: 0px;
+			border-style: none;
+		}
+
+		.cv-body h3 {
+			margin-top: 20px;
+		}
+
+		.cv-body h2 + h3 {
+			margin-top: 0px;
+		}
+
+		.cv-body p {
+			display: inline-block;
+		}
+
+		.cv-body ul {
+			list-style: none;
+		}
+
+		.footer {
+			clear: both;
+			text-align: center;
+			padding-top: 50px;
+			padding-bottom: 30px;
+		}
+
+		hr {
+			display: none;
+		}
+
+		@media print {
+			.cv {
+				margin: 0px;
+				border-style: none;
+				background-color: #fff;
+				padding-bottom: 0px;
+			}
+
+			.header {
+				margin: 20px 0px;
+			}
+
+			.contact-info {
+				margin: 26px 0px;
+			}
+
+			.cv-body {
+				margin-top: -20px;
+			}
+
+			.cv-body p,
+			.cv-body h3,
+			.cv-body li {
+				font-size: 14px;
+				margin-bottom: 3px;
+			}
+
+			.cv-body h3 {
+				font-weight: bold;
+			}
+
+			.footer {
+				padding-top: 30px;
+				padding-bottom: 0px;
+			}
+
+			hr {
+				display: block;
+				visibility: hidden;
+				page-break-after: always;
+			}
+
+			.header h1,
+			.header h2 {
+				letter-spacing: 0em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="cv">
+		<div class="header">
+			<h1>Vladik Khononov</h1>
+			<h2>Software Architect, Author(O'Reilly, Addison Wesley)</h2>
+		</div>
+		<div class="contact-info">
+			<span class="email"><a href="mailto:vladik@khononov.com">vladik@khononov.com</a></span>
+			<span class="phonenumber">+972-50-765-7534</span>
+			<span class="twitter"><a href="http://twitter.com/vladikk">@vladikk</a></span>
+		</div>
+		<div class="cv-body">
+			<h2>Profile</h2>
+
+<p>Vlad (Vladik) Khononov is a software engineer with over 20 years of industry experience, during which he has worked for companies large and small in roles ranging from webmaster to chief architect. Vlad maintains an active media career as a public speaker, blogger, and author. He travels the world consulting and talking about domain-driven design, microservices, and software architecture in general. Vlad helps companies make sense of their business domains, untangle legacy systems, and tackle complex architectural challenges. Vladik lives in Northern Israel with his wife and an almost-reasonable number of cats.</p>
+
+<h2>Proven Experience</h2>
+
+<h3>Distributed systems design</h3>
+
+<p>Microservices, Event-Driven Architecture, SOA</p>
+
+<h3>Aligning software architecture with business needs</h3>
+
+<p>Domain-Driven Design, Event Storming, Evolutionary Architecture, Behavior-Driven Development</p>
+
+<h3>Evolving legacy codebases and recovering business domain knowledge</h3>
+
+<p>Event Storming, Evolutionary Architecture</p>
+
+<h3>Architectural patterns and approaches</h3>
+
+<p>CQRS, Event Sourcing, Ports&amp;Adapters/Hexagonal Architecture, Event-Driven Architecture, Test-Driven Development</p>
+
+<hr />
+
+<h2>Experience</h2>
+
+<h3>DoiT International - Senior Cloud Architect (2019-now)</h3>
+
+<p>DoiT Internation is a cloud computing reseller offering micro-consulting to its customers. I help customers design and architect solutions for AWS and Google Cloud.</p>
+
+<h3>Invesus Group - Chief Architect (2017-2019)</h3>
+
+<p>In 2017 Internovus was merged with Invesus, and I was promoted to the Chief Architect position of the Invesus group (Internovus, Naxex, Tick Tech). At Invesus I’m in charge of mentoring junior and senior developers, evolving legacy codebases into Microservices and cloud based solutions (AWS), and providing architectural guidance for new projects.</p>
+
+<p>Experience: Evolutionary Architecture, Microservices, Distributed Systems, TDD, Domain-Driven Design, Event-Driven Architecture, CQRS, Event Sourcing</p>
+
+<h3>Internovus - Chief Architect (2011-2017)</h3>
+
+<p>Internovus is a large scale online advertising and marketing company. As the first employee of the company I am in charge of both strategic and tactical software design and architecture. </p>
+
+<p>At Internovus we've embraced AWS Cloud and Domain-Driven Design from the company's day one. We also employed state of the art technologies and architectural styles, such as Microservices, Serverless Computing, Event Sourcing, CQRS, Event-Driven Architecture, polyglot persistence, machine learning, and others.</p>
+
+<p>In addition to my engineering duties, I built and managed international RND teams, mentored junior software developers and architects, and I'm in charge of research and technical guidance for RND teams.</p>
+
+<p>At Internovus we always strove to deploy quality software, in aggressive times to market, keep the costs down, and all of this despite having very limited RND teams.</p>
+
+<p>Experience: Evolutionary Architecture, Microservices, Distributed Systems, TDD, Domain-Driven Design, Event-Driven Architecture, CQRS, Event Sourcing, BDD</p>
+
+<h3>Malam Team - Senior Software Engineer (2005-2011)</h3>
+
+<h3>Israel Air Force - Software and IT Engineer (2001-2005)</h3>
+
+<h3>Beit Tochna Ve Makhshev - Web Developer (2000-2001)</h3>
+
+<hr />
+
+<h2>Books and Publications</h2>
+
+<h3>Balancing Coupling in Software Design (Addison Wesley, 2022 WIP)</h3>
+
+<p>Microservices become immensely popular because it promised to help organizations build loosely-coupled systems that allow for fast, easy change. But microservices systems haven't always kept that promise. This book identifies the deeper problem -- how software architects and designers approach coupling and introduces an important new approach for creating more successful designs whether you use microservices or not. This book is a work in progress and is <a href="https://www.amazon.com/Balancing-Coupling-Software-Design-Addison-wesley/dp/0137353480">expected to be published in Q2 of 2022</a>.</p>
+
+<h3>Learning Domain-Driven Design (O'Reilly, 2021)</h3>
+
+<p><a href="https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131">Learning Domain-Driven Design</a> provides all the knowledge necessary for leveraging the domain-driven design methodology in day-to-day work. The book puts strong emphasis on real-life contexts, such as using the methodology in brown-field projects, and other challenging scenarios.</p>
+
+<h3>What is Domain-Driven Design? (O'Reilly, 2019)</h3>
+
+<p><a href="https://learning.oreilly.com/library/view/what-is-domain-driven/9781492057802/">The &quot;What is Domain-Driven Design?&quot; book</a> explains the core ideas and principles of domain-driven design. The book's unique characteristic, is that it does it in fewer than 100 pages, making it possible for anyone to get into the methodology in under two hours.</p>
+
+<h3>DDD: The First 15 Years (Leanpub, 2018)</h3>
+
+<p>I co-authored this <a href="https://leanpub.com/ddd_first_15_years">book</a>, alongside Martin Fowler, Mel Conway, Rebecca Wirfs-Brock, and other industry leaders. I shared my 7 years long story of implementing Domain-Driven Design and Microservices-based architectures.</p>
+
+<h3>Devops: Exploring the Value of Microblogging, Cutter IT, Jan 2012</h3>
+
+<h2>Public Speaking</h2>
+
+<ul>
+<li>Balancing Coupling in Distributed Systems (DDD Europe)</li>
+<li>Microservices, Bounded Contexts, and Everything in Between (DDDx, MuCon London, KanDDDinsky, O'Reilly SACon)</li>
+<li>7 Years of Domain-Driven Design (O'Reilly SACon, DDD Europe, NDC Sydney, Code Europe, and more)</li>
+<li>The Dark Side of Messaging (NDC Minnesota, MuCon London, Build Stuff, O'Reilly SACon)</li>
+<li>Polyglot Persistence via CQRS (Big Data Moscow)</li>
+<li>Testing Software Architecture (TestCon Moscow, Rolling Scopes)</li>
+<li>How to Tame Test-Driven Development (TestCon Moscow, ISTA)</li>
+<li><a href="http://vladikk.com/page/speaking">Full speaking profile: http://vladikk.com/page/speaking</a></li>
+</ul>
+
+<h2>Blog</h2>
+
+<p><a href="https://vladikk.com">vladikk.com</a> - Software architecture and other related topics</p>
+
+<h2>Education</h2>
+
+<h3>The Open University of Israel</h3>
+
+<p>Dual Major, Management and Computer Sciences, 2011 (with <em>distinction</em>)</p>
+
+<h2>Languages</h2>
+
+<ul>
+<li>English - Fluent</li>
+<li>Hebrew - Fluent</li>
+<li>Russian - Mother tongue</li>
+</ul>
+
+		</div>
+		<div class="footer">
+			Vladik Khononov &mdash; <a href="mailto:vladik@khononov.com">vladik@khononov.com</a> &mdash; +972-50-765-7534
+		</div>
+	</div>
+</body>
+</html>
